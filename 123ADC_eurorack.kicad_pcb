@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 680)
+    (drawings 686)
     (tracks 291)
     (zones 0)
     (modules 80)
@@ -321,7 +321,7 @@
     (fp_text reference D4 (at 3.81 -2.12 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1N4148 (at 4 0 270) (layer F.SilkS)
+    (fp_text value 48 (at 4 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user K (at 0 -1.8 270) (layer F.SilkS) hide
@@ -374,7 +374,7 @@
     (fp_text reference D5 (at 3.81 -2.12 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1N4148 (at 4 0 270) (layer F.SilkS)
+    (fp_text value 48 (at 4 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.81 -1) (end 1.81 1) (layer F.Fab) (width 0.1))
@@ -427,7 +427,7 @@
     (fp_text reference D6 (at 3.81 -2.12 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1N4148 (at 4 0 270) (layer F.SilkS)
+    (fp_text value 48 (at 4 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.81 -1) (end 1.81 1) (layer F.Fab) (width 0.1))
@@ -480,7 +480,7 @@
     (fp_text reference D7 (at 3.81 -2.12 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1N4148 (at 4 0 270) (layer F.SilkS)
+    (fp_text value 48 (at 4 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user K (at 0 -1.8 270) (layer F.SilkS) hide
@@ -533,7 +533,7 @@
     (fp_text reference D8 (at 3.81 -2.12 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1N4148 (at 4 0 270) (layer F.SilkS)
+    (fp_text value 48 (at 4 0 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.81 -1) (end 1.81 1) (layer F.Fab) (width 0.1))
@@ -1945,7 +1945,7 @@
     (fp_text reference R15 (at 3.81 -2.37 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1k (at 3.81 2.37 90) (layer F.Fab)
+    (fp_text value 1k (at 5.925 -0.475 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 3.81 0 90) (layer F.Fab)
@@ -1986,7 +1986,7 @@
     (fp_text reference R16 (at 3.81 -2.37 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1k (at 3.81 2.37 90) (layer F.Fab)
+    (fp_text value 1k (at 6 0.425 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 3.81 0 90) (layer F.Fab)
@@ -2343,7 +2343,7 @@
     (descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x06 2.54mm single row")
     (path /5E45B6EC)
-    (fp_text reference J11 (at 0 2.33 90) (layer B.SilkS)
+    (fp_text reference J11 (at 0 2.33 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value Conn_01x06_Male (at 0 -15.03 90) (layer B.Fab)
@@ -2439,7 +2439,7 @@
     (descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x06 2.54mm single row")
     (path /5E439FEC)
-    (fp_text reference J13 (at 0 2.33 90) (layer B.SilkS)
+    (fp_text reference J13 (at 0 2.33 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value Conn_01x06_Male (at 0 -15.03 90) (layer B.Fab)
@@ -3246,6 +3246,24 @@
     )
   )
 
+  (gr_text "ADC123\nbottom pcb v1.0\nnebularnoise.com" (at 145.8 142.225) (layer F.SilkS) (tstamp 5E4DC66E)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "ADC123 top pcb v1.0\nnebularnoise.com" (at 111.874999 67.025 90) (layer B.SilkS) (tstamp 5E4DC669)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text JLCJLCJLCJLC (at 137.25 142.725001 90) (layer F.SilkS) (tstamp 5E4DC661)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text JLCJLCJLCJLC (at 114.075 141.35) (layer B.SilkS) (tstamp 5E4DC661)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text JLCJLCJLCJLC (at 75.75 160.725) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text "ADC123 Panel v1.0\nnebularnoise.com" (at 75.75 51.1) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
   (gr_curve (pts (xy 81.176162 50.807688) (xy 81.090263 50.847913) (xy 81.000187 50.882719) (xy 80.910207 50.916281)) (layer F.Mask) (width 0.01))
   (gr_curve (pts (xy 80.518007 49.174631) (xy 80.615154 49.290247) (xy 80.71086 49.40805) (xy 80.804447 49.527308)) (layer F.Mask) (width 0.01))
   (gr_curve (pts (xy 79.779646 49.150715) (xy 79.715373 49.053911) (xy 79.65962 48.956178) (xy 79.582621 48.848645)) (layer F.Mask) (width 0.01))
